@@ -4,7 +4,7 @@ def home(request):
     return HttpResponse("""
     <html><body>
         <h1>Home Page</h1>
-        <p>Welcome to the Home Page!</p>
+        <p>Welcome to my page!</p>
         <a href="/about/">About</a> | 
         <a href="/projects/">Projects</a> | 
         <a href="/contact/">Contact</a>
@@ -15,7 +15,7 @@ def about(request):
     return HttpResponse("""
     <html><body>
         <h1>About Page</h1>
-        <p>This is the About Page.</p>
+        <p>my name is ibrahim.</p>
         <a href="/">Home</a> | 
         <a href="/projects/">Projects</a> | 
         <a href="/contact/">Contact</a>
